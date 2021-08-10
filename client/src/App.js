@@ -1,7 +1,7 @@
 import "./App.css";
 import { useEffect, useState } from "react";
 import { Switch, Route, NavLink } from "react-router-dom";
-import "./images/intro-page.jpg";
+import Navigation from "./components/Navigation";
 
 function App() {
   const [text, setText] = useState("");
@@ -19,12 +19,18 @@ function App() {
   return (
     <div className="App">
       <header className="App__header">
+        <Navigation />
+      </header>
+      <main className="App_content">
         <Switch>
           <Route path="/cakes">ICON</Route>
           <Route path="/">HOME</Route>
         </Switch>
-      </header>
-      <main></main>
+        <div className="Heading">
+          <h1>CakeLog App</h1>
+          <p>by Boris</p>
+        </div>
+      </main>
 
       <footer></footer>
     </div>
