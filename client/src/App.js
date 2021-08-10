@@ -2,6 +2,8 @@ import "./App.css";
 import { useEffect, useState } from "react";
 import { Switch, Route, NavLink } from "react-router-dom";
 import Navigation from "./components/Navigation";
+import Intro from "./pages/Intro";
+import Menu from "./pages/Menu";
 
 function App() {
   const [text, setText] = useState("");
@@ -23,8 +25,12 @@ function App() {
       </header>
       <main className="App_content">
         <Switch>
-          <Route path="/menu">Menu</Route>
-          <Route path="/intro">Intro</Route>
+          <Route path="/menu">
+            <Menu />
+          </Route>
+          <Route path="/intro">
+            <Intro />
+          </Route>
         </Switch>
       </main>
 
