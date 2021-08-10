@@ -2,4 +2,7 @@
   display: grid;
   height: 100vh;
   grid-template-rows: 10vh 90vh;
+  background-image: url("./images/intro-page.jpg");
+  background-size: contain, cover;
+  background-repeat: no-repeat;
 }

@@ -1,6 +1,7 @@
 import "./App.css";
 import { useEffect, useState } from "react";
 import { Switch, Route, NavLink } from "react-router-dom";
+import "./images/intro-page.jpg";
 
 function App() {
   const [text, setText] = useState("");
@@ -17,6 +18,7 @@ function App() {
 
   return (
     <div className="App">
+      <img src="./images/intro-page.jpg" alt="Intro" />
       <header className="App__header">
         <Switch>
           <Route path="/cakes">ICON</Route>
