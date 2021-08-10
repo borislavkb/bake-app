@@ -2,5 +2,10 @@
   display: flex;
   justify-content: center;
   margin: 0;
-  border-top: 10px solid #ea8989;
+  border-top: 5px solid #ea8989;
+}
+
+.Nav__item {
+  text-decoration: none;
+  margin: 1.5em;
 }
