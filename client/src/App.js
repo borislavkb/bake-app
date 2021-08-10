@@ -1,5 +1,6 @@
 import "./App.css";
 import { useEffect, useState } from "react";
+import { Switch, Route, NavLink } from "react-router-dom";
 
 function App() {
   const [text, setText] = useState("");
@@ -16,7 +17,10 @@ function App() {
 
   return (
     <div className="App">
-      <h1> Hello new Branch volume 2!</h1>
+      <Switch>
+        <Route path="/cakes">ICON 1</Route>
+        <Route path="/">HOME</Route>
+      </Switch>
     </div>
   );
 }
