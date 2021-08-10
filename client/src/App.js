@@ -23,13 +23,9 @@ function App() {
       </header>
       <main className="App_content">
         <Switch>
-          <Route path="/cakes">ICON</Route>
-          <Route path="/">HOME</Route>
+          <Route path="/menu">Menu</Route>
+          <Route path="/intro">Intro</Route>
         </Switch>
-        <div className="Heading">
-          <h1>CakeLog App</h1>
-          <p>by Boris</p>
-        </div>
       </main>
 
       <footer></footer>
