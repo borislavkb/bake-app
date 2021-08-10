@@ -17,13 +17,15 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App__header">Header</header>
-      <main>Content</main>
-      <Switch>
-        <Route path="/cakes">ICON 1</Route>
-        <Route path="/">HOME</Route>
-      </Switch>
-      <footer>Footer</footer>
+      <header className="App__header">
+        <Switch>
+          <Route path="/cakes">ICON</Route>
+          <Route path="/">HOME</Route>
+        </Switch>
+      </header>
+      <main></main>
+
+      <footer></footer>
     </div>
   );
 }
