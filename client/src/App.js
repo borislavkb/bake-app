@@ -18,7 +18,6 @@ function App() {
 
   return (
     <div className="App">
-      <img src="./images/intro-page.jpg" alt="Intro" />
       <header className="App__header">
         <Switch>
           <Route path="/cakes">ICON</Route>
