@@ -4,6 +4,7 @@ import { Switch, Route, NavLink } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import Intro from "./pages/Intro";
 import Menu from "./pages/Menu";
+import Footer from "./components/Footer";
 
 function App() {
   const [text, setText] = useState("");
@@ -23,9 +24,10 @@ function App() {
       <header className="App__header">
         <Navigation />
       </header>
-      <main className="App_content">
+      <main className="App__content">
         <Switch>
-          <Route path="/menu">
+          <Route path="/listCakes/:id">Sin∂gleCakePage</Route>
+          <Route path="/listCakes">
             <Menu />
           </Route>
           <Route path="/intro">
@@ -34,7 +36,9 @@ function App() {
         </Switch>
       </main>
 
-      <footer></footer>
+      <footer classname="App__footer">
+        <Footer />
+      </footer>
     </div>
   );
 }
