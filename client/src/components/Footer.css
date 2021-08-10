@@ -1,5 +1,6 @@
 .Footer {
   display: flex;
   justify-content: center;
-  bottom: 0;
+  margin: 0;
+  border-top: 10px solid #ea8989;
 }

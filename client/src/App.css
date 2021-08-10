@@ -1,17 +1,14 @@
 body {
-  background-image: none;
+  background-color: #fbf2f2;
 }
 
 .App {
   display: grid;
   height: 100vh;
+  grid-template-rows: 80px 1fr 80px;
 }
 
 .App__content {
   display: flex;
   justify-content: center;
-}
-
-.App__footer {
-  border-top: 2em solid black;
 }
