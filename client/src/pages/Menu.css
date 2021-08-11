@@ -53,3 +53,7 @@
   object-position: top center;
   margin-bottom: 1em;
 }
+
+.cake-card__name {
+  color: #d84064;
+}
