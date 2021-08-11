@@ -53,3 +53,18 @@
   object-position: top center;
   margin-bottom: 1em;
 }
+
+.Button__add {
+  width: 80%;
+  background: #f4cbad;
+  border-radius: 15px;
+  border: none;
+  align-self: center;
+  padding: 1em;
+  margin: 1em;
+}
+
+.Button__div {
+  display: flex;
+  justify-content: center;
+}
