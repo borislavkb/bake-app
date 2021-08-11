@@ -2,11 +2,11 @@ import "./App.css";
 import { useEffect, useState } from "react";
 import { Switch, Route, NavLink } from "react-router-dom";
 import Navigation from "./components/Navigation";
-import Intro from "./pages/Intro";
 import Menu from "./pages/Menu";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import { BsSearch } from "react-icons/bs";
+import CreateNewPage from "./pages/CreateNewPage";
 
 function App() {
   const [text, setText] = useState("");
@@ -31,6 +31,9 @@ function App() {
           <Route path="/listCakes/:id">SingleCakePage</Route>
           <Route path="/menu">
             <Menu />
+          </Route>
+          <Route path="/add">
+            <CreateNewPage />
           </Route>
 
           <Route path="/">
