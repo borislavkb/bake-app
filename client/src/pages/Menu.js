@@ -20,6 +20,18 @@ export default function Menu() {
           <img className="cake-card__img" src={image} alt="cake item" />
           <h3 className="cake-card__name">Chocolate cake</h3>
         </li>
+        <li className="cake-card">
+          <img className="cake-card__img" src={image} alt="cake item" />
+          <h3 className="cake-card__name">Chocolate cake</h3>
+        </li>
+        <li className="cake-card">
+          <img className="cake-card__img" src={image} alt="cake item" />
+          <h3 className="cake-card__name">Chocolate cake</h3>
+        </li>
+        <li className="cake-card">
+          <img className="cake-card__img" src={image} alt="cake item" />
+          <h3 className="cake-card__name">Chocolate cake</h3>
+        </li>
       </ul>
     </div>
   );
