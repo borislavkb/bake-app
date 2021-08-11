@@ -27,7 +27,7 @@ function App() {
       <main className="App__content">
         <Switch>
           <Route path="/listCakes/:id">Sin∂gleCakePage</Route>
-          <Route path="/listCakes">
+          <Route path="/menu">
             <Menu />
           </Route>
           <Route path="/intro">
