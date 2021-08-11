@@ -1,1 +1,22 @@
+.Banner__element {
+  border: 2px none black;
+  padding: 2em 8em;
+  border-radius: 15px;
+  background: #f4b7b7;
+  display: flex;
+  align-items: center;
+  color: #d84064;
+  margin: 3em;
+  overflow-y: auto;
+}
 
+.left {
+  margin-right: 3em;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.right {
+  white-space: nowrap;
+  overflow: hidden;
+}
