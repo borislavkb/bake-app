@@ -10,6 +10,7 @@ export default function CreateNewPage() {
       <form className="form">
         <input type="text" id="name" name="name" />
         <input type="text" id="recipe" name="recipe" />
+        <button type="submit">Save</button>
       </form>
     </div>
   );
