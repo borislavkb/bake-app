@@ -6,7 +6,7 @@ export default function Navigation() {
   return (
     <div className="Navigation">
       <NavLink to="/menu">
-        <CgMenuGridR />
+        <CgMenuGridR color="#d84064" size="40px" />
       </NavLink>
       <NavLink to="/intro">Intro</NavLink>
     </div>
