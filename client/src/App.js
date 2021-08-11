@@ -32,9 +32,7 @@ function App() {
           <Route path="/menu">
             <Menu />
           </Route>
-          <Route path="/search">
-            <BsSearch />
-          </Route>
+
           <Route path="/">
             <Home />
           </Route>
