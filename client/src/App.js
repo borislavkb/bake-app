@@ -5,6 +5,8 @@ import Navigation from "./components/Navigation";
 import Intro from "./pages/Intro";
 import Menu from "./pages/Menu";
 import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import { BsSearch } from "react-icons/bs";
 
 function App() {
   const [text, setText] = useState("");
@@ -26,12 +28,15 @@ function App() {
       </header>
       <main className="App__content">
         <Switch>
-          <Route path="/listCakes/:id">Sin∂gleCakePage</Route>
+          <Route path="/listCakes/:id">SingleCakePage</Route>
           <Route path="/menu">
             <Menu />
           </Route>
-          <Route path="/intro">
-            <Intro />
+          <Route path="/search">
+            <BsSearch />
+          </Route>
+          <Route path="/">
+            <Home />
           </Route>
         </Switch>
       </main>

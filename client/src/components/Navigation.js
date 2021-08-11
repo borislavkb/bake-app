@@ -1,6 +1,7 @@
 import "./Navigation.css";
 import { NavLink } from "react-router-dom";
 import { CgMenuGridR } from "react-icons/cg";
+import { BsSearch } from "react-icons/bs";
 
 export default function Navigation() {
   return (
@@ -8,7 +9,9 @@ export default function Navigation() {
       <NavLink to="/menu">
         <CgMenuGridR color="#d84064" size="40px" />
       </NavLink>
-      <NavLink to="/intro">Intro</NavLink>
+      <NavLink to="/intro">
+        <BsSearch color="#d84064" size="35px" />
+      </NavLink>
     </div>
   );
 }
