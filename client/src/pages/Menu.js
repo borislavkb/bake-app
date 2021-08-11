@@ -29,12 +29,11 @@ export default function Menu() {
           <img className="cake-card__img" src={image} alt="cake item" />
           <h3 className="cake-card__name">Chocolate cake</h3>
         </li>
-      </ul>
-      <div className="Button__div">
-        <button type="button" className="Button__add">
+
+        <li className="cake-card">
           <FaPlus color="#d84064" size="75px" />
-        </button>
-      </div>
+        </li>
+      </ul>
     </div>
   );
 }
