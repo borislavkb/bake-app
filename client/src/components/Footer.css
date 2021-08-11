@@ -3,10 +3,8 @@
   justify-content: center;
   margin: 0;
   border-top: 5px solid #ea8989;
-  height: 50px;
 }
 
 .Nav__item {
   text-decoration: none;
-  margin: 1.5em;
 }

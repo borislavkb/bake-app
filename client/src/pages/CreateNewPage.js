@@ -8,8 +8,13 @@ export default function CreateNewPage() {
       </div>
 
       <form className="form">
-        <input type="text" id="name" name="name" />
-        <input type="text" id="recipe" name="recipe" />
+        <input type="text" id="name" name="name" placeholder="cake name" />
+        <input
+          type="text"
+          id="recipe"
+          name="recipe"
+          placeholder="add the ingredients"
+        />
         <button type="submit">Save</button>
       </form>
     </div>
