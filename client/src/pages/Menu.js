@@ -1,5 +1,6 @@
 import "./Menu.css";
 import React from "react";
+import image from "../images/sunday.png";
 
 export default function Menu() {
   return (
@@ -14,6 +15,12 @@ export default function Menu() {
           <h3>Rate a cake</h3>
         </div>
       </div>
+      <ul className="Cake-wrapper">
+        <li className="cake-card">
+          <img className="cake-card__img" src={image} alt="cake item" />
+          <h3 className="cake-card__name">Chocolate cake</h3>
+        </li>
+      </ul>
     </div>
   );
 }

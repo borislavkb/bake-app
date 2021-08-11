@@ -20,3 +20,28 @@
   white-space: nowrap;
   overflow: hidden;
 }
+
+.Cake-wrapper {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+}
+
+.cake-card {
+  width: 100%;
+  background: #f4cbad;
+  padding: 2em;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cake-card__img {
+  width: 100%;
+  display: block;
+  max-height: 200px;
+  object-fit: contain;
+  object-position: top center;
+  margin-bottom: 1em;
+}
