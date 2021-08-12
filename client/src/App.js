@@ -1,5 +1,12 @@
 import "./App.css";
 import { useEffect, useState } from "react";
+import { Switch, Route, NavLink } from "react-router-dom";
+import Navigation from "./components/Navigation";
+import Menu from "./pages/Menu";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import { BsSearch } from "react-icons/bs";
+import CreateNewPage from "./pages/CreateNewPage";
 
 function App() {
   const [text, setText] = useState("");
@@ -16,7 +23,28 @@ function App() {
 
   return (
     <div className="App">
-      <h1> {text}</h1>
+      <header className="App__header">
+        <Navigation />
+      </header>
+      <main className="App__content">
+        <Switch>
+          <Route path="/listCakes/:id">SingleCakePage</Route>
+          <Route path="/menu">
+            <Menu />
+          </Route>
+          <Route path="/add">
+            <CreateNewPage />
+          </Route>
+
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </main>
+
+      <footer classname="App__footer">
+        <Footer />
+      </footer>
     </div>
   );
 }

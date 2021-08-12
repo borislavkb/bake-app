@@ -1,7 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Rochester&display=swap");
+
+:root  {
+  --color-background: #fbf2f2;
+  --color-list-items: #f4cbad;
+  --color-single-items: #f4b7b7;
+  --color-icons: #d84064;
+  --color-footer-border: #ea8989;
+}
 *,
-::before,
+* ::before,
 ::after {
   box-sizing: content-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: "Rochester", cursive;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-size: cover;
+  }
 }

@@ -1,0 +1,59 @@
+.Banner__element {
+  border: 2px none black;
+  padding: 2em 8em;
+  border-radius: 15px;
+  background: #f4b7b7;
+  display: flex;
+  align-items: center;
+  color: #d84064;
+  margin: 3em;
+  overflow-y: auto;
+}
+
+.left {
+  margin-right: 3em;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.right {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.Cake-wrapper {
+  text-decoration: none;
+  list-style-type: none;
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-content: flex-start;
+  padding: 2em;
+  height: 60vh;
+  list-style: none;
+  overflow-y: scroll;
+}
+
+.cake-card {
+  width: 80%;
+  background: #f4cbad;
+  padding: 2em;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2em;
+}
+
+.cake-card__img {
+  width: 100%;
+  display: block;
+  max-height: 200px;
+  object-fit: contain;
+  object-position: top center;
+  margin-bottom: 1em;
+}
+
+.cake-card__name {
+  color: #d84064;
+}
